@@ -352,7 +352,7 @@ button:focus {
       height: 100%;
       bottom: 0;
       z-index: -1;
-      opacity: 1; }
+      opacity: 1; }  
     .banner_area .banner_inner .banner_content h2 {
       color: #fff;
       font-size: 48px;
@@ -362,7 +362,8 @@ button:focus {
     .banner_area .banner_inner .banner_content p {
       color: #ffffff;
       margin-bottom: 0; }
-
+    
+         
 /* End Home Banner Area css
 ============================================================================================ */
 /*---------------------------------------------------- */
@@ -2768,5 +2769,23 @@ h6 {
       opacity: 1; }
 
 /*---------------------------------------------------- */
+
+/*============== custom css ===============*/
+.banner_area .banner_inner .overlay#banner1 {
+  background: linear-gradient(0deg, rgba(6, 13, 1, 0.6), rgba(6, 13, 1, 0.6)), url(../img/custom/banner.jpg) no-repeat scroll center center;
+  background-size: cover;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 100%;
+  bottom: 0;
+  z-index: -1;
+  opacity: 1; } 
+
+/*---------------------------------------------------- */
+
+
+
 
 /*# sourceMappingURL=style.css.map */
