@@ -70,6 +70,7 @@ $(document).ready(function(){
                         })
                     },
                     error: function() {
+                        console.log($(form).serialize())
                         $('#contactForm').fadeTo( "slow", 1, function() {
                             $('#error').fadeIn()
                             $('.modal').modal('hide');
