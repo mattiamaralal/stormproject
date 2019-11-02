@@ -10,6 +10,7 @@ $(document).ready(function(){
 
     // validate contactForm form
     $(function() {
+        console.log("Started validating")
         $('#contactForm').validate({
             rules: {
                 name: {
@@ -55,6 +56,7 @@ $(document).ready(function(){
                 }
             },
             submitHandler: function(form) {
+                console.log("Form works")
                 $(form).ajaxSubmit({
                     type:"POST",
                     data: $(form).serialize(),
