@@ -382,7 +382,20 @@ position: relative;
         opacity: 1; 
         }  
 
-.banner_area .banner_inner .overlay1{
+.banner_area .banner_inner .overlayuni{
+        background: linear-gradient(0deg, rgba(6, 13, 1, 0.6), rgba(6, 13, 1, 0.6)), url(../documents/scuola/future.jpg) no-repeat scroll center center;
+  background-size: cover;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        height: 100%;
+        bottom: 0;
+        z-index: -1;
+        opacity: 1; 
+        }  
+
+.banner_area .banner_inner .overlaycollab{
       background: linear-gradient(0deg, rgba(6, 13, 1, 0.6), rgba(6, 13, 1, 0.6)), url(../img/custom/team.JPG) no-repeat scroll center center;
 background-size: cover;
       position: absolute;
@@ -395,8 +408,8 @@ background-size: cover;
       opacity: 1; 
       }  
 
-.banner_area .banner_inner .overlay2{
-      background: linear-gradient(0deg, rgba(6, 13, 1, 0.6), rgba(6, 13, 1, 0.6)), url(../img/banner/ragazze.jpg) no-repeat scroll center center;
+.banner_area .banner_inner .overlayevent{
+      background: linear-gradient(0deg, rgba(6, 13, 1, 0.6), rgba(6, 13, 1, 0.6)), url(../documents/scuola/lake_best.jpg) no-repeat scroll center center;
 background-size: cover;
       position: absolute;
       left: 0;
