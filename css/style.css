@@ -356,7 +356,7 @@ position: relative;
       opacity: 1; }
 
 .banner_area .banner_inner .overlayschool{
-        background: linear-gradient(0deg, rgba(6, 13, 1, 0.6), rgba(6, 13, 1, 0.6)), url(../img/banner/scuola.jpg) no-repeat scroll center center;
+        background: linear-gradient(0deg, rgba(6, 13, 1, 0.6), rgba(6, 13, 1, 0.6)), url(../documents/scuola/school1.jpg) no-repeat scroll center center;
   background-size: cover;
         position: absolute;
         left: 0;
