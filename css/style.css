@@ -355,6 +355,32 @@ position: relative;
       z-index: -1;
       opacity: 1; }
 
+.banner_area .banner_inner .overlayschool{
+        background: linear-gradient(0deg, rgba(6, 13, 1, 0.6), rgba(6, 13, 1, 0.6)), url(../img/banner/scuola.jpg) no-repeat scroll center center;
+  background-size: cover;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        height: 100%;
+        bottom: 0;
+        z-index: -1;
+        opacity: 1; 
+        }  
+
+
+.banner_area .banner_inner .overlaysport{
+        background: linear-gradient(0deg, rgba(6, 13, 1, 0.6), rgba(6, 13, 1, 0.6)), url(../documents/sport/sport_background.PNG) no-repeat scroll center center;
+  background-size: cover;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        height: 100%;
+        bottom: 0;
+        z-index: -1;
+        opacity: 1; 
+        }  
 
 .banner_area .banner_inner .overlay1{
       background: linear-gradient(0deg, rgba(6, 13, 1, 0.6), rgba(6, 13, 1, 0.6)), url(../img/custom/team.JPG) no-repeat scroll center center;
@@ -382,18 +408,7 @@ background-size: cover;
       opacity: 1; 
       }  
 
-      .banner_area .banner_inner .overlay3{
-        background: linear-gradient(0deg, rgba(6, 13, 1, 0.6), rgba(6, 13, 1, 0.6)), url(../img/banner/scuola.jpg) no-repeat scroll center center;
-  background-size: cover;
-        position: absolute;
-        left: 0;
-        right: 0;
-        top: 0;
-        height: 100%;
-        bottom: 0;
-        z-index: -1;
-        opacity: 1; 
-        }  
+      
 
 
 
