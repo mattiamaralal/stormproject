@@ -91,13 +91,11 @@
     </div>
    
   <div class="row">
-    <div class="col-md-4">
-      <img src="img/causes/idee.png" alt="" class="img-fluid">
-    </div>
+    
     <div class="col-md-7">
       <div class="single-defination">
         <h3 class="mb-20"> </h3>
-        <h3 class="mb-20">Donazioni </h3>
+        <h3 class="mb-20" class="center">Donazioni </h3>
         <p>Puoi contribuire in molti modi alla nostra causa. Metterti in contatto con noi, proporci idee,
         aiutarci a sensibilizzare più persone possibile e donare per aiutarci a finanziare i nostri progetti!!!</p>
         <a class="primary_btn mr-20" href="progetti.html">Qui puoi trovare i nostri attuali progetti</a>
@@ -105,13 +103,13 @@
     </div>
   </div>
 </div>
-<div id="smart-button-container">
+<div id="smart-button-container" class="center">
     <div style="text-align: center"><label for="description">Causale </label><input type="text" name="descriptionInput" id="description" maxlength="127" value=""></div>
       <p id="descriptionError" style="visibility: hidden; color:red; text-align: center;">Please enter a description</p>
     <div style="text-align: center"><label for="amount">Importo </label><input name="amountInput" type="number" id="amount" value="" ><span> EUR</span></div>
       <p id="priceLabelError" style="visibility: hidden; color:red; text-align: center;">Please enter a price</p>
     <div id="invoiceidDiv" style="text-align: center; display: none;"><label for="invoiceid"> </label><input name="invoiceid" maxlength="127" type="text" id="invoiceid" value="" ></div>
-      <p id="invoiceidError" style="visibility: hidden; color:red; text-align: center;">Please enter an Invoice ID</p>
+      <p id="invoiceidError" style="visibility: hidden; color:rgba(255, 0, 0, 0.705); text-align: center;">Please enter an Invoice ID</p>
     <div style="text-align: center; margin-top: 0.625rem;" id="paypal-button-container"></div>
   </div>
   <script src="https://www.paypal.com/sdk/js?client-id=sb&currency=EUR" data-sdk-integration-source="button-factory"></script>
