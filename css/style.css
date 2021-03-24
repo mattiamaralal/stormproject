@@ -422,7 +422,7 @@ background-size: cover;
       }  
 
       .banner_area .banner_inner .overlaynews{
-        background: linear-gradient(0deg, rgba(6, 13, 1, 0.6), rgba(6, 13, 1, 0.6)), url(../documents/eventi/news.jpg) no-repeat scroll center center;
+        background: linear-gradient(0deg, rgba(6, 13, 1, 0.6), rgba(6, 13, 1, 0.6)), url(../img/custom/news.JPG) no-repeat scroll center center;
   background-size: cover;
         position: absolute;
         left: 0;
@@ -435,7 +435,7 @@ background-size: cover;
         }       
 
         .banner_area .banner_inner .overlaydonare{
-          background: linear-gradient(0deg, rgba(6, 13, 1, 0.6), rgba(6, 13, 1, 0.6)), url(../img/custom/donare.jpg) no-repeat scroll center center;
+          background: linear-gradient(0deg, rgba(6, 13, 1, 0.6), rgba(6, 13, 1, 0.6)), url(../img/custom/donare.JPG) no-repeat scroll center center;
     background-size: cover;
           position: absolute;
           left: 0;
