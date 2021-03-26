@@ -2880,7 +2880,22 @@ h6 {
   background-color: #fff;
   transition: .3s ease-out;
 }
-
+.newsletter__button {
+  min-width: 6.125rem;
+  height: 100%;
+  padding: .875rem 1rem;
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-radius: 0 3px 3px 0;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.5;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #d21034;
+}
 
 /*============== custom css ===============*/
 .banner_area .banner_inner .overlay#banner1 {
