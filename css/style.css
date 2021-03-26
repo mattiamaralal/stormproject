@@ -2866,6 +2866,21 @@ h6 {
       opacity: 1; }
 
 /*---------------------------------------------------- */
+/*Newsletter*/
+.form-field__elem {
+  position: relative;
+  display: block;
+  width: 100%;
+  padding: .75rem 1rem;
+  border: 1px solid #1f1f1f;
+  border-radius: 3px;
+  font-family: "GT America",sans-serif;
+  font-size: 1rem;
+  line-height: 1.75;
+  background-color: #fff;
+  transition: .3s ease-out;
+}
+
 
 /*============== custom css ===============*/
 .banner_area .banner_inner .overlay#banner1 {
