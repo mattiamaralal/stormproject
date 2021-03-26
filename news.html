@@ -363,6 +363,8 @@
                                         <a href="news.html" class="d-flex justify-content-between">
                                            
                             </aside>
+
+                            <!--Newsletter-->
                             <aside class="single-sidebar-widget newsletter_widget">
                                 <h4 class="widget_title">Newsletter</h4>
                                 <p>
@@ -375,6 +377,47 @@
                                             <div class="input-group-text"><i class="fa fa-envelope" aria-hidden="true"></i></div>
                                         </div>
                                         <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Inserisci email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter email'">
+                                        <script language=”javascript” type = “text/javascript”>
+                                            function controllo(){
+                                            var test;
+                                            test=”true”;
+                                            if (test==”true”) {
+                                            if(document.form1.email.value==””) {
+                                            alert(“Compila il campo!”);
+                                            document.form1.email.focus();
+                                            test=”false”;
+                                            }
+                                            }
+                                            if (test==”true”) {
+                                            if (document.form1.email.value.indexOf(“@”)==-1)
+                                            {
+                                            alert(“Indirizzo email non valido!”);
+                                            document.form1.email.focus();
+                                            test=”false”;
+                                            }
+                                            }
+                                            if (test==”true”) {
+                                            if (document.form1.email.value.indexOf(“.”)==-1)
+                                            {
+                                            alert(“Indirizzo email non valido!”);
+                                            document.form1.email.focus();
+                                            test=”false”;
+                                            }
+                                            }
+                                            if (test==”true”) {
+                                            if (document.form1.email.value.length < 7)
+                                            {
+                                            alert(“Indirizzo email non valido!”);
+                                            document.form1.email.focus();
+                                            test=”false”;
+                                            }
+                                            }
+                                            if (test==”true”)
+                                            {
+                                            document.form1.submit();
+                                            }
+                                            }
+                                            </script>
                                     </div>
                                     <a href="#" class="bbtns">Iscriviti</a>
                                 </div>	
