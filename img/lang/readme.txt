@@ -1,1 +1,1 @@
-Qua vanno le bamdiere delle lingue in cui traduciamo il sito
+Qua vanno le bandiere delle lingue in cui traduciamo il sito
