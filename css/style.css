@@ -295,7 +295,7 @@ position: relative;
   min-height: 600px;
   display: flex;
   background: linear-gradient(rgba(3, 1, 10, 0.5), rgba(3, 1, 10, 0.5)), url(../img/site/banner/home_banner.jpg) no-repeat scroll center center;
-  background-size: 40%; }
+  background-size: 100%; }
   .home_banner_area .banner_inner {
     width: 100%;
     display: flex; }
@@ -357,7 +357,7 @@ position: relative;
 
 .banner_area .banner_inner .overlayschool{
         background: linear-gradient(0deg, rgba(6, 13, 1, 0.6), rgba(6, 13, 1, 0.6)), url(../img/site/school_banner.jpg) no-repeat scroll center center;
-  background-size: cover;
+        background-size: cover;
         position: absolute;
         left: 0;
         right: 0;
@@ -370,7 +370,7 @@ position: relative;
 
 
 .banner_area .banner_inner .overlaysport{
-        background: linear-gradient(0deg, rgba(6, 13, 1, 0.6), rgba(6, 13, 1, 0.6)), url(../documents/sport/sport_background.PNG) no-repeat scroll center center;
+        background: linear-gradient(0deg, rgba(6, 13, 1, 0.6), rgba(6, 13, 1, 0.6)), url(../documents/sport/sport_banner.jpeg) no-repeat scroll center center;
   background-size: cover;
         position: absolute;
         left: 0;
