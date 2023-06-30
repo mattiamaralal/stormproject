@@ -294,7 +294,7 @@ position: relative;
   z-index: 1;
   min-height: 600px;
   display: flex;
-  background: linear-gradient(rgba(3, 1, 10, 0.5), rgba(3, 1, 10, 0.5)), url(../img/custom/1.png) no-repeat scroll center center;
+  background: linear-gradient(rgba(3, 1, 10, 0.5), rgba(3, 1, 10, 0.5)), url(../img/site/banner/home_banner.jpg) no-repeat scroll center center;
   background-size: 40%; }
   .home_banner_area .banner_inner {
     width: 100%;
